@@ -13,3 +13,18 @@ const filme = {
 }
 
 // respostas aqui ⬇️
+//a)
+const primeiroAtor = filme.elenco[0]
+console.log(primeiroAtor)
+
+//b)
+const segundoAtor = filme.elenco[filme.elenco.length -1]
+console.log(segundoAtor)
+
+//c)
+const todasTransmissoes = filme.transmissoesHoje
+console.log(todasTransmissoes)
+
+//d)
+const horarioFilme = filme.transmissoesHoje[1].horario
+console.log(horarioFilme)
